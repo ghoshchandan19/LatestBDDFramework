@@ -11,7 +11,7 @@ Scenario: Log-in with valid username and password
 		And  User succesfully logout from the application
 		
 		
-@SmokeTest 
+@Smoke
 Scenario: Log-in with valid username and invalid password
         Given User open the browser and entered the URL
 		When User click on My Account Menu
