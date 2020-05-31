@@ -1,0 +1,5 @@
+[INFO] [Log] [enterRegEmail] Entered usernamechandan@yahoo 
+ [INFO] [Log] [enterRegEmail] Entered usernamechandan@yahoo 
+ [INFO] [WaitHelper] [WaitForElement] Waiting for element visibleProxy element for: DefaultElementLocator 'By.name: login' 
+ [INFO] [WaitHelper] [WaitForElement] Element is visible[[ChromeDriver: chrome on WINDOWS (560e9e5ab558691267a8d4423984fd01)] -> name: login] 
+ 

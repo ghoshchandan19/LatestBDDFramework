@@ -1,0 +1,16 @@
+2020-06-01 01:06:695 INFO  HomePageFeature:28 - Clicked on My Account
+2020-06-01 01:06:752 INFO  WaitHelper:41 - Waiting for element to be visibleProxy element for: DefaultElementLocator 'By.name: login'
+2020-06-01 01:06:489 INFO  WaitHelper:45 - Element is visible[[ChromeDriver: chrome on WINDOWS (766ac38090f537f20c2678485840845c)] -> name: login]
+2020-06-01 01:06:248 INFO  MyAccountFeature:27 - Entered username... ghoshchandan19@gmail.com
+2020-06-01 01:06:707 INFO  MyAccountFeature:32 - Entered password... Priyadarshinicollege
+2020-06-01 01:06:436 INFO  MyAccountFeature:38 - Clicked on Login Button... Proxy element for: DefaultElementLocator 'By.name: login'
+2020-06-01 01:06:496 INFO  MyAccountFeature:43 - Verifying Dashoboard Text [[ChromeDriver: chrome on WINDOWS (766ac38090f537f20c2678485840845c)] -> xpath: //a[contains(text(),'Dashboard')]]
+2020-06-01 01:06:498 INFO  LoginSteps:69 - User succesfully login into the application
+2020-06-01 01:06:882 INFO  HomePageFeature:28 - Clicked on My Account
+2020-06-01 01:06:913 INFO  WaitHelper:41 - Waiting for element to be visibleProxy element for: DefaultElementLocator 'By.name: login'
+2020-06-01 01:06:891 INFO  WaitHelper:45 - Element is visible[[ChromeDriver: chrome on WINDOWS (b8d009ef417011a62c6b51c7da3fce1f)] -> name: login]
+2020-06-01 01:06:173 INFO  MyAccountFeature:27 - Entered username... ghoshchandan19@gmail.com
+2020-06-01 01:06:402 INFO  MyAccountFeature:32 - Entered password... Priyadarshinicoll
+2020-06-01 01:06:108 INFO  MyAccountFeature:38 - Clicked on Login Button... [[ChromeDriver: chrome on WINDOWS (b8d009ef417011a62c6b51c7da3fce1f)] -> name: login]
+2020-06-01 01:06:200 INFO  MyAccountFeature:48 - Verifying Inavlid Login [[ChromeDriver: chrome on WINDOWS (b8d009ef417011a62c6b51c7da3fce1f)] -> xpath: //strong[text()='ERROR']]
+2020-06-01 01:06:255 INFO  LoginSteps:89 - User not able to login with incorrect credentials

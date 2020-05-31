@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29754" started-at="2020-05-31T20:16:16Z" finished-at="2020-05-31T20:16:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29754" started-at="2020-05-31T20:16:16Z" finished-at="2020-05-31T20:16:46Z">
+      <class name="com.demotest.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="setUpClass" is-config="true" duration-ms="180" started-at="2020-05-31T20:16:16Z" finished-at="2020-05-31T20:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="setUpClass" is-config="true" duration-ms="11" started-at="2020-05-31T20:16:16Z" finished-at="2020-05-31T20:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="feature" duration-ms="18391" started-at="2020-05-31T20:16:16Z" data-provider="features" finished-at="2020-05-31T20:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log-in with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing for login page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-05-31T20:16:35Z" finished-at="2020-05-31T20:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="feature" duration-ms="11085" started-at="2020-05-31T20:16:35Z" data-provider="features" finished-at="2020-05-31T20:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log-in with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing for login page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demotest.testRunner.TestRunner@174d20a]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-05-31T20:16:46Z" finished-at="2020-05-31T20:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demotest.testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="662" started-at="2020-05-31T18:44:25Z" finished-at="2020-05-31T18:44:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="662" started-at="2020-05-31T18:44:25Z" finished-at="2020-05-31T18:44:26Z">
+      <class name="com.demotest.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="167" started-at="2020-05-31T18:44:25Z" finished-at="2020-05-31T18:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="11" started-at="2020-05-31T18:44:25Z" finished-at="2020-05-31T18:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="feature" duration-ms="351" started-at="2020-05-31T18:44:25Z" data-provider="features" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User purchase a book from the ecommerce site"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End shopping of a product"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.testdemo.Utils.PropertiesFileReader.ConfigFileReader(PropertiesFileReader.java:15)
+at com.testdemo.stepdefinition.LoginSteps.user_open_the_browser_and_entered_the_URL(LoginSteps.java:36)
+at ✽.User open the browser and entered the URL(src/test/resources/Features/e2eshopping.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-05-31T18:44:26Z" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="feature" duration-ms="8" started-at="2020-05-31T18:44:26Z" data-provider="features" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log-in with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing for login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.testdemo.Utils.PropertiesFileReader.ConfigFileReader(PropertiesFileReader.java:15)
+at com.testdemo.stepdefinition.LoginSteps.user_open_the_browser_and_entered_the_URL(LoginSteps.java:36)
+at ✽.User open the browser and entered the URL(src/test/resources/Features/login.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="feature" duration-ms="7" started-at="2020-05-31T18:44:26Z" data-provider="features" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log-in with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing for login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.testdemo.Utils.PropertiesFileReader.ConfigFileReader(PropertiesFileReader.java:15)
+at com.testdemo.stepdefinition.LoginSteps.user_open_the_browser_and_entered_the_URL(LoginSteps.java:36)
+at ✽.User open the browser and entered the URL(src/test/resources/Features/login.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-05-31T18:44:26Z" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="feature" duration-ms="8" started-at="2020-05-31T18:44:26Z" data-provider="features" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration Sign-In"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register in the application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\test\resources\Config\${env}.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at com.testdemo.Utils.PropertiesFileReader.ConfigFileReader(PropertiesFileReader.java:15)
+at com.testdemo.stepdefinition.LoginSteps.user_open_the_browser_and_entered_the_URL(LoginSteps.java:36)
+at ✽.User open the browser and entered the URL(src/test/resources/Features/registration.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-05-31T18:44:26Z" finished-at="2020-05-31T18:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demotest.testRunner.TestRunner@60c6f5b]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2020-05-31T18:44:26Z" finished-at="2020-05-31T18:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demotest.testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
