@@ -1,6 +1,6 @@
 Feature: Register in the application
 
-@Smoke
+
 Scenario Outline:  Registration Sign-In
 
         Given User open the browser and entered the URL
