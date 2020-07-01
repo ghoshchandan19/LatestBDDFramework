@@ -20,7 +20,7 @@ import org.openqa.selenium.WebDriver;
 	this.driver = driver; 
 	hp = new HomePage(driver);
 	map=new MyAccountPage(driver);
-	 wait=new WaitHelper(driver);
+	wait=new WaitHelper(driver);
 	}
   
   public void clickOnMyAccount() { 

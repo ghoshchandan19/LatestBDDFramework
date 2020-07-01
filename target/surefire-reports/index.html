@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demotest.testRunner.TestRunner" hash-for-method="feature(&quot;Log-in with valid username and invalid password&quot;, &quot;Testing for login page&quot;)">feature("Log-in with valid username and invalid password", "Testing for login page")</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demotest.testRunner.TestRunner" hash-for-method="feature(&quot;User purchase a book from the ecommerce site&quot;, &quot;End to End shopping of a product&quot;)">feature("User purchase a book from the ecommerce site", "End to End shopping of a product")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.demotest.testRunner.TestRunner" hash-for-method="feature(&quot;Log-in with valid username and password&quot;, &quot;Testing for login page&quot;)">feature("Log-in with valid username and password", "Testing for login page")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,30 +117,40 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.demotest.testRunner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="feature(&quot;Log-in with valid username and invalid password&quot;, &quot;Testing for login page&quot;)">
-                  </a> <!-- feature("Log-in with valid username and invalid password", "Testing for login page") -->
+                  <a name="feature(&quot;User purchase a book from the ecommerce site&quot;, &quot;End to End shopping of a product&quot;)">
+                  </a> <!-- feature("User purchase a book from the ecommerce site", "End to End shopping of a product") -->
                   <span class="method-name">feature</span>
-                  <span class="parameters">("Log-in with valid username and invalid password", "Testing for login page")</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(&quot;Log-in with valid username and password&quot;, &quot;Testing for login page&quot;)">
-                  </a> <!-- feature("Log-in with valid username and password", "Testing for login page") -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">("Log-in with valid username and password", "Testing for login page")</span>
+                  <span class="parameters">("User purchase a book from the ecommerce site", "End to End shopping of a product")</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: Step [user fills the billing details and places the order] is defined with 0 parameters at &apos;com.testdemo.stepdefinition.EndToEndShoppingSteps.user_fills_the_billing_details_and_places_the_order() in file:/C:/Users/Chandan%20Ghosh/eclipse-workspace/CucumberLearning/target/classes/&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | First Name | LAST NAME | COMPANY | STREET   | TOWN  | POSTCODE |
+      | Chandan    | Ghosh     | TTN     | SARFABAD | NOIDA | 201301   |
+
+Step text: user fills the billing details and places the order
+	at cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:68)
+	at com.demotest.testRunner.TestRunner.feature(TestRunner.java:64)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -201,20 +206,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'com.demotest.testRunner.TestRunner')
-data.setCell(0, 3, 18391);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'feature')
-data.setCell(1, 2, 'com.demotest.testRunner.TestRunner')
-data.setCell(1, 3, 11085);
+data.setCell(0, 3, 17605);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -247,23 +248,17 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpClass(chrome, 76, Windows 10)</span>
-                <span class="method-start">246 ms</span>
+                <span class="method-start">174 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">feature("Log-in with valid username and password", "Testing for login page")</span>
-                <span class="method-start">257 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpClass(chrome, 76, Windows 10)</span>
-                <span class="method-start">18649 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">feature("Log-in with valid username and invalid password", "Testing for login page")</span>
-                <span class="method-start">18650 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature("User purchase a book from the ecommerce site", "End to End shopping of a product")</span>
+                <span class="method-start">190 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">29735 ms</span>
+                <span class="method-start">17809 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

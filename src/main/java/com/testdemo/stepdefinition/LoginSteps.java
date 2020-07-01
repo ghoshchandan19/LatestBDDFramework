@@ -1,6 +1,6 @@
 package com.testdemo.stepdefinition;
 
-import com.testdemo.Utils.ConfigProperties;
+
 import com.testdemo.Utils.PropertiesFileReader;
 import com.testdemo.Utils.TestBase;
 import com.testdemo.helpers.LoggerUtil;

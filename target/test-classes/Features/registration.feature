@@ -1,6 +1,6 @@
 Feature: Register in the application
 
-
+# Data Driven Scenario with examples
 Scenario Outline:  Registration Sign-In
 
         Given User open the browser and entered the URL

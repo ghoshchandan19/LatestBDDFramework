@@ -1,6 +1,6 @@
 Feature: Testing for login page
 
-@SmokeTest
+# Data Driven Scenario without examples
 Scenario: Log-in with valid username and password
 
 		Given User open the browser and entered the URL
@@ -11,7 +11,6 @@ Scenario: Log-in with valid username and password
 		And  User succesfully logout from the application
 		
 		
-@Smoke
 Scenario: Log-in with valid username and invalid password
         Given User open the browser and entered the URL
 		When User click on My Account Menu

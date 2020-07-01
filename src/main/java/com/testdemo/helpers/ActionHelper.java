@@ -20,7 +20,7 @@ public class ActionHelper {
 
 	}
 
-	public void mouseOverAndClick(WebElement elementToHover, WebElement elementToClickable) {
+	public void mouseHoverAndClick(WebElement elementToHover, WebElement elementToClickable) {
 		Actions actObj = new Actions(driver);
 		actObj.moveToElement(elementToHover).click(elementToClickable).build().perform();
 		logger.info("Moved to element and clicked" + elementToHover + elementToHover);

@@ -1,6 +1,7 @@
 com\testdemo\Utils\ConfigProperties.class
 com\testdemo\helpers\JavaScriptHelper.class
 com\testdemo\Utils\DbConnection.class
+com\testdemo\pageFeatures\BasePage.class
 com\testdemo\pageFeatures\DashboardFeature.class
 com\testdemo\pages\BasketPage.class
 com\testdemo\pageFeatures\CheckoutFeature.class

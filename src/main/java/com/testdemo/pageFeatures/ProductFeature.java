@@ -15,7 +15,7 @@ public class ProductFeature {
 	{
 		this.driver=driver;
 		pp=new ProductPage(driver);
-		 wait = new WaitHelper(driver);
+		wait = new WaitHelper(driver);
 				
 	}
 	
@@ -25,11 +25,19 @@ public class ProductFeature {
 		wait.waitForElementToVisible(pp.getQuantityBox(),5);
 		pp.getQuantityBox().clear();
 		pp.getQuantityBox().sendKeys("2");
+	
 	}
 	
 	public void addToBasket()
 	{
 		pp.getAddBaskt().click();
 	}
+	
+	public void clickOnCart()
+	{
+		pp.getShoppingCart().click();
+	}
+	
+	
 
 }

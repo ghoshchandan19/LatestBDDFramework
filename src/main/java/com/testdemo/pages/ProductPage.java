@@ -15,6 +15,9 @@ public class ProductPage {
 	@FindBy(xpath="//button[text()='Add to basket']")
 	private @Getter WebElement addBaskt;
 	
+	@FindBy(xpath="//span[@class='cartcontents']")
+	private @Getter WebElement shoppingCart;
+	
 	public ProductPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);

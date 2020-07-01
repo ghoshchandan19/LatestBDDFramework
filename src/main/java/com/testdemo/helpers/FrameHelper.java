@@ -17,21 +17,19 @@ public class FrameHelper {
 		driver.switchTo().frame(element);
 		logger.info("Switch to frame using locator:" + element);
 	}
-	
-	public void switchToFrame(String fName)
-	{
+
+	public void switchToFrame(String fName) {
 		driver.switchTo().frame(fName);
 		logger.info("Switch to frame :" + fName);
 	}
-	
-	public void switchToFrame(int index)
-	{
+
+	public void switchToFrame(int index) {
 		driver.switchTo().frame(index);
-		logger.info("Switch to frame with "+index);
+		logger.info("Switch to frame with " + index);
 	}
 
-	public void switchToMainFrame()
-	{driver.switchTo().parentFrame();
-	logger.info("Switched to parent frame");
+	public void switchToMainFrame() {
+		driver.switchTo().parentFrame();
+		logger.info("Switched to parent frame");
 	}
 }

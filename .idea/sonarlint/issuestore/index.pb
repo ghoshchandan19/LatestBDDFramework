@@ -35,3 +35,11 @@ h
 8src/main/java/com/testdemo/helpers/JavaScriptHelper.java,8\f\8fc40e78556e95dc2bbfe432637032356e4842eb
 c
 3src/main/java/com/testdemo/helpers/FrameHelper.java,7\a\7a48b31ffe3411cca7f4062d2897e1a140760b5b
+e
+5src/main/java/com/testdemo/pageFeatures/BasePage.java,5\0\50158294808420985c93155a9120fe7fec0503f2
+m
+=src/main/java/com/testdemo/pageFeatures/MyAccountFeature.java,6\d\6d2a44217b2f5e20fba70e3a18b9fbcdde184449
+m
+=src/main/java/com/testdemo/pageFeatures/DashboardFeature.java,5\f\5f77d57b941ee30f5679106ff645db118a2e7055
+l
+<src/main/java/com/testdemo/pageFeatures/CheckoutFeature.java,8\e\8e750fea3839d68909b49315a153b2722be3aab3

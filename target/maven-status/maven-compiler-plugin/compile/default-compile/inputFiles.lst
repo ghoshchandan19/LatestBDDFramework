@@ -14,6 +14,7 @@ C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\test
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\Utils\TestBase.java
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\stepdefinition\RegistrationSteps.java
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\helpers\WaitHelper.java
+C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\pageFeatures\BasePage.java
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\pages\CheckoutPage.java
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\helpers\WindowHelper.java
 C:\Users\Chandan Ghosh\eclipse-workspace\CucumberLearning\src\main\java\com\testdemo\Utils\DbConnection.java

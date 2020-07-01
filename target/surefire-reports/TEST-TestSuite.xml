@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="30.83" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.209" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="cucumber.options" value="--tags @SmokeTest"/>
+    <property name="cucumber.options" value="src/test/resources/Features/e2eshopping.feature"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
     <property name="java.vm.version" value="25.45-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -13,7 +13,6 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="env" value="qa"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
@@ -30,7 +29,7 @@
     <property name="os.name" value="Windows 8.1"/>
     <property name="classworlds.conf" value="C:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;%TRICENTIS_HOME%;%TBOX_HOME%\Resources\Mobile\Tools;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_45\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\nodejs\;C:\Users\Chandan Ghosh\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Chandan Ghosh\AppData\Local\Programs\Python\Python37-32\;C:\Users\Chandan Ghosh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2019.2\bin;C:\gradle-5.6.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\Users\Chandan Ghosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chandan Ghosh\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;%TRICENTIS_HOME%;%TBOX_HOME%\Resources\Mobile\Tools;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_45\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files\nodejs\;C:\Users\Chandan Ghosh\scoop\shims;C:\Users\Chandan Ghosh\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Chandan Ghosh\AppData\Local\Programs\Python\Python37-32\;C:\Users\Chandan Ghosh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2019.2\bin;C:\gradle-5.6.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\Users\Chandan Ghosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chandan Ghosh\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\apache-maven-3.6.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -47,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Denv=qa -Dcucumber.options=--tags @SmokeTest test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=src/test/resources/Features/e2eshopping.feature"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -66,6 +65,28 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="com.demotest.testRunner.TestRunner" time="18.394"/>
-  <testcase name="feature" classname="com.demotest.testRunner.TestRunner" time="11.098"/>
+  <testcase name="feature" classname="com.demotest.testRunner.TestRunner" time="17.62">
+    <failure message="Step [user fills the billing details and places the order] is defined with 0 parameters at &apos;com.testdemo.stepdefinition.EndToEndShoppingSteps.user_fills_the_billing_details_and_places_the_order() in file:/C:/Users/Chandan%20Ghosh/eclipse-workspace/CucumberLearning/target/classes/&apos;.&#10;However, the gherkin step has 1 arguments:&#10; * Table:&#10;      | First Name | LAST NAME | COMPANY | STREET   | TOWN  | POSTCODE |&#10;      | Chandan    | Ghosh     | TTN     | SARFABAD | NOIDA | 201301   |&#10;&#10;Step text: user fills the billing details and places the order" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+Step [user fills the billing details and places the order] is defined with 0 parameters at 'com.testdemo.stepdefinition.EndToEndShoppingSteps.user_fills_the_billing_details_and_places_the_order() in file:/C:/Users/Chandan%20Ghosh/eclipse-workspace/CucumberLearning/target/classes/'.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | First Name | LAST NAME | COMPANY | STREET   | TOWN  | POSTCODE |
+      | Chandan    | Ghosh     | TTN     | SARFABAD | NOIDA | 201301   |
+
+Step text: user fills the billing details and places the order
+	at com.demotest.testRunner.TestRunner.feature(TestRunner.java:64)
+</failure>
+    <system-out><![CDATA[&amp#27;[32m.&amp#27;[0m2020-06-07 23:06:935 INFO  HomePageFeature :37 - Clicked on Shop
+&amp#27;[32m.&amp#27;[0m&amp#27;[32m.&amp#27;[0m2020-06-07 23:06:600 INFO  WaitHelper :41 - Waiting for element to be visibleProxy element for: DefaultElementLocator 'By.name: quantity'
+2020-06-07 23:06:395 INFO  WaitHelper :45 - Element is visible[[ChromeDriver: chrome on WINDOWS (cb21ecfa8a322fe500efef8e8cbed6d0)] -> name: quantity]
+&amp#27;[32m.&amp#27;[0m&amp#27;[32m.&amp#27;[0m2020-06-07 23:06:994 INFO  CheckoutFeature :25 - Clicked on checkout Button Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='checkout-button button alt wc-forward']'
+&amp#27;[32m.&amp#27;[0m&amp#27;[31mF&amp#27;[0m&amp#27;[36m-&amp#27;[0m]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ChromeDriver was started successfully.
+Jun 07, 2020 11:22:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

@@ -8,7 +8,7 @@ import java.util.Properties;
 public class PropertiesFileReader {
 	private Properties prop;
 	
-	private  final String propertyFilePath = "C:\\Users\\Chandan Ghosh\\eclipse-workspace\\CucumberLearning\\src\\test\\resources\\Config\\"+getEnv()+".properties";
+	private  final String propertyFilePath = "C:\\Users\\Chandan Ghosh\\eclipse-workspace\\CucumberLearning\\src\\test\\resources\\Config\\qa.properties";
 
 	public String ConfigFileReader() throws IOException {
 		FileInputStream fis = new FileInputStream(propertyFilePath);

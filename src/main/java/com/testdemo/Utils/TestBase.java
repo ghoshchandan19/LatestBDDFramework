@@ -21,6 +21,7 @@ public class TestBase {
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.get(url);
+            
             return driver;
         } else if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
@@ -38,6 +39,8 @@ public class TestBase {
 		return driver;
        
     }
+    
+    
 
 
 }

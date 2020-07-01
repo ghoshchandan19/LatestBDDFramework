@@ -27,6 +27,7 @@ public class RegistrationSteps extends TestBase {
 	@Then("User will be register sucesfully")
 	public void user_will_be_register_sucesfully() {
 		Assert.assertEquals(maf.verifyRegistration(), "Dashboard");
+		driver.quit();
 	}
 
 }

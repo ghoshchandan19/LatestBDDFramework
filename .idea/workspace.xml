@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09cb79ca-2ba9-4f7a-acad-c218eacfcb31" name="Default Changelist" comment="" />
+    <list default="true" id="09cb79ca-2ba9-4f7a-acad-c218eacfcb31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.out" beforeDir="false" afterPath="$PROJECT_DIR$/automation.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/Utils/PropertiesFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/Utils/PropertiesFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/Utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/Utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/ActionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/ActionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/DropDownHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/DropDownHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/FrameHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/FrameHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/LoggerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/helpers/LoggerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/BasketFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/BasketFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/CheckoutFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/CheckoutFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/ProductFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pageFeatures/ProductFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/pages/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/stepdefinition/EndToEndShoppingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/stepdefinition/EndToEndShoppingSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testdemo/stepdefinition/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testdemo/stepdefinition/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/e2eshopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/e2eshopping.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/DbConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/PropertiesFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/PropertiesFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/RandomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/RandomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/Utils/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/ActionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/ActionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/AlertHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/AlertHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/CustomLocators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/CustomLocators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/DropDownHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/DropDownHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/FrameHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/FrameHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/GenericHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/GenericHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/JavaScriptHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/JavaScriptHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/LoggerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/LoggerUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/WaitHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/WaitHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/WindowHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/helpers/WindowHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/listeners/ExtentReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/listeners/ExtentReportListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/BasketFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/BasketFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/CheckoutFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/CheckoutFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/DashboardFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/DashboardFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/HomePageFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/HomePageFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/ProductFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/ProductFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/ShopFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pageFeatures/ShopFeature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/BasketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/BasketPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/CheckoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/MyAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/ProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/pages/ShopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/pages/ShopPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testdemo/stepdefinition/EndToEndShoppingSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testdemo/stepdefinition/EndToEndShoppingSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.demotest.testRunner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.demotest.testRunner.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/e2eshopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/e2eshopping.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demotest/testRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demotest/testRunner/TestRunner.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +80,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -74,5 +143,16 @@
       <updated>1586890003467</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
